@@ -1,0 +1,19 @@
+This is a group project for Group 14
+
+when running this code for the first time you'll have to remove the apostrophe (''') from the following code to create the sqllite 3database
+'''
+c.execute("""CREATE TABLE contactlist(
+first_name text,
+surname text,
+contact_No text,
+address text,
+email text,
+city text,
+country text
+)""")
+'''
+above is a sample of the code
+
+when the apostrophe has been removed and the program ran for the first time, you have to put the apostrophe back unless the program wouldn't run,
+because the command is to create a database which has already been created.
+The ''' ''' acts as a comment
